@@ -1,0 +1,25 @@
+﻿@model  Time_Table_Generator.Models.TimeTable
+<br>
+<br>
+
+@using (Html.BeginForm("Generate", "DynamicTbl", FormMethod.Post))
+{
+    <div>
+        @Html.LabelFor(m => m.TotalWorkingDays)
+        @Html.TextBoxFor(m => m.TotalWorkingDays, new { type = "number", min = "1", max = "7" })
+        @Html.ValidationMessageFor(m => m.TotalWorkingDays)
+    </div>
+    <div>
+        @Html.LabelFor(m => m.TotalSubjectsPerDay)
+        @Html.TextBoxFor(m => m.TotalSubjectsPerDay, new { type = "number", min = "1", max = "8" })
+        @Html.ValidationMessageFor(m => m.TotalSubjectsPerDay)
+    </div>
+    <div>
+        @Html.LabelFor(m => m.TotalSubjects)
+        @Html.TextBoxFor(m => m.TotalSubjects, new { type = "number", min = "1" })
+        @Html.ValidationMessageFor(m => m.TotalSubjects)
+    </div>
+    <div>
+        <input type="submit" value="submit" />
+    </div>
+}

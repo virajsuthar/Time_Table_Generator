@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Time_Table_Generator", "Time_Table_Generator\Time_Table_Generator.csproj", "{E5318ACC-6076-46CD-ADA8-529EE2826494}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5318ACC-6076-46CD-ADA8-529EE2826494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5318ACC-6076-46CD-ADA8-529EE2826494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5318ACC-6076-46CD-ADA8-529EE2826494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5318ACC-6076-46CD-ADA8-529EE2826494}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0FF38BD-A8DB-4884-83AB-D2D9E5EA52E8}
+	EndGlobalSection
+EndGlobal

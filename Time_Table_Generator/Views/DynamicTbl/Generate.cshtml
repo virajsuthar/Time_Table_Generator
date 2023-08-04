@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Generated Time Table";
+}
+
+<h2>Generated Time Table</h2>
+
+<table border="1">
+    @for (int row = 0; row < ViewBag.TotalSubjectsPerDay; row++)
+    {
+        <tr>
+            @for (int col = 0; col < ViewBag.TotalWorkingDays; col++)
+            {
+                <td>
+                    @ViewBag.TimeTable[row, col]
+                </td>
+            }
+        </tr>
+    }
+</table>
+
+
+
